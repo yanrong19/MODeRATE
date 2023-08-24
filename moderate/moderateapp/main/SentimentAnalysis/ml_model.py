@@ -6,7 +6,6 @@ from sklearn.feature_extraction.text import TfidfTransformer
 from sklearn.feature_extraction.text import CountVectorizer,TfidfVectorizer
 from sklearn.feature_selection import SelectKBest, chi2
 from sklearn.ensemble import RandomForestRegressor
-import pandas as pd
 import pickle
 
 dataset = pd.read_csv('https://github.com/ZhiQi12/Orbital-/blob/master/moderate/moderateapp/main/SentimentAnalysis/Comments%20Review%20-%20Sheet1.csv?raw=true')[["Comment","Emotion","Rating"]]
