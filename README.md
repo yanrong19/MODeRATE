@@ -19,11 +19,6 @@ In this project, data such as text reviews, number of upvotes and date posted ar
 
 With MODeRATE, NUS students can have a better gauge on the general sentiment of the module before they decide to bid during ModReg. It also allows the faculty to check on how well the module is doing over the semesters as our algorithm updates based on real-time data.
 
-## Prototype
-Link to the working prototype:
-<br>
-https://moderate-app.herokuapp.com/
-
 ## Features
 
 ### Custom AI Model
