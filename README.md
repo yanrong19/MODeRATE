@@ -95,7 +95,7 @@ https://docs.google.com/spreadsheets/d/1b2lHf4xYJ8It8KscUmsg0Pj9CIuiWi9cyLKumfxG
 #### Transformers
 * Count Vectorizer - Helps to convert a text into tokens (a basic unit such as a word/character/subword which gives useful semantic meaning) used for processing.
 * Select-K-Best - Keeps the k best features while removing the least useful features from the model.
-* TFID Vectorizer - A common term weighting scheme that gives a feature a higher weight the greater the number of times it appears in a document but also a lower weight the greater the number of times it appears across documents.
+* TFIDF Vectorizer - A common term weighting scheme that gives a feature a higher weight the greater the number of times it appears in a document but also a lower weight the greater the number of times it appears across documents.
 
 #### Machine Learning Alogrithm
 Several machine learning algorithms were tested for their accuracy to determine which model was best suited for sentiment analysis in this case study. The testing involves training a model using their respective transformers and ML algorithm on our custom dataset before testing on a series of test cases. The accuracy is given based on how far apart the model prediction rating is from our proposed rating.
